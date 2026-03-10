@@ -1,0 +1,173 @@
+{
+  "settings": {
+    "coordinateOrigin": "topLeft"
+  },
+  "fields": [
+    {
+      "id": "pdfFormField-0",
+      "page": 1,
+      "type": "text",
+      "name": "text_po",
+      "rect": {
+        "x": 215,
+        "y": 155,
+        "w": 325,
+        "h": 30
+      },
+      "flags": {
+        "print": true
+      },
+      "style": {},
+      "additionalActions": {},
+      "operations": [
+        "create",
+        "updateRect",
+        "updateName",
+        "updateDefaultValue",
+        "updateTextAlign",
+        "updateValue"
+      ],
+      "defaultValue": "PO-XXXX_XXXX",
+      "textAlign": "left",
+      "value": ""
+    },
+    {
+      "id": "pdfFormField-1",
+      "page": 1,
+      "type": "text",
+      "name": "text_pn",
+      "rect": {
+        "x": 215,
+        "y": 185,
+        "w": 325,
+        "h": 30
+      },
+      "flags": {
+        "print": true
+      },
+      "style": {},
+      "additionalActions": {},
+      "operations": [
+        "create",
+        "updateRect",
+        "updateDefaultValue",
+        "updateName"
+      ],
+      "defaultValue": "PN_XXXX_XXXX"
+    },
+    {
+      "id": "pdfFormField-2",
+      "page": 1,
+      "type": "text",
+      "name": "text_conform",
+      "rect": {
+        "x": 75,
+        "y": 305,
+        "w": 465,
+        "h": 160
+      },
+      "flags": {
+        "print": true,
+        "multiline": true
+      },
+      "style": {},
+      "additionalActions": {},
+      "operations": [
+        "create",
+        "updateRect",
+        "updateFlags",
+        "updateName"
+      ]
+    },
+    {
+      "id": "pdfFormField-3",
+      "page": 1,
+      "type": "text",
+      "name": "text_comment",
+      "rect": {
+        "x": 75,
+        "y": 550,
+        "w": 465,
+        "h": 85
+      },
+      "flags": {
+        "print": true,
+        "multiline": true
+      },
+      "style": {},
+      "additionalActions": {},
+      "operations": [
+        "create",
+        "create",
+        "updateRect",
+        "updateFlags",
+        "updateName"
+      ]
+    },
+    {
+      "id": "pdfFormField-4",
+      "page": 1,
+      "type": "text",
+      "name": "text_sign",
+      "rect": {
+        "x": 155,
+        "y": 662,
+        "w": 195,
+        "h": 30
+      },
+      "flags": {
+        "print": true
+      },
+      "style": {},
+      "additionalActions": {},
+      "operations": [
+        "create",
+        "updateRect",
+        "updateName"
+      ]
+    },
+    {
+      "id": "pdfFormField-6",
+      "page": 1,
+      "type": "text",
+      "name": "text_date",
+      "rect": {
+        "x": 435,
+        "y": 662,
+        "w": 105,
+        "h": 30
+      },
+      "flags": {
+        "print": true
+      },
+      "style": {},
+      "additionalActions": {},
+      "operations": [
+        "create",
+        "create",
+        "updateRect",
+        "updateName"
+      ]
+    }
+  ],
+  "resources": {
+    "fonts": {
+      "Helvetica": {
+        "type": "standard",
+        "name": "Helvetica"
+      },
+      "Courier": {
+        "type": "standard",
+        "name": "Courier"
+      },
+      "Times": {
+        "type": "standard",
+        "name": "Times"
+      },
+      "ZapfDingbats": {
+        "type": "standard",
+        "name": "ZapfDingbats"
+      }
+    }
+  }
+}
