@@ -13,6 +13,10 @@ Requires
 - `uv` python pakage manager
 - `bun.js` or `node.js` for related node cli commands
 
+## Creating new templates
 
+Use google docs to create the PDF and this 
+[pdf form generator](https://tools.pdf24.org/en/create-fillable-pdf-form)
+to generate the pdf fields used by this application.
 
 want coc? we got it
